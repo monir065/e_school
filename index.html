@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media/media.css">
+    <link rel="stylesheet" href="bootstrap/icon/bootstrap-icons.css">
+    
+    <link rel="icon" href="images/fav.png">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg  c_nav">
+                <div class="container-fluid px-0">
+                    <!-- icon start -->
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" class="img-fluid logo" alt="e-school">
+                  </a>
+                   <!-- icon end -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nsc" aria-controls="nsc" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse manu" id="nsc">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Books</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Others</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                    </ul>
+                    <!-- sign in start -->
+                    <a class="btn btn_c btn_sign" data-bs-toggle="modal"  href="#sign_modal">Sign in</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="sign_modal" tabindex="-1" aria-labelledby="sign_modal_label" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5 ms-auto" id="sign_modal_label">Sign in</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <!-- form start  -->
+                            <form>
+                              <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password">
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                            <!-- form end -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- sign in end -->
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- header end -->
+   
+    
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

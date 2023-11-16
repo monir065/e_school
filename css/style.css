@@ -1,0 +1,64 @@
+/* font link start */
+@font-face{
+    src: url(../fonts/poppins/poppins-regular.ttf);
+    font-family: poppins-regular;  
+}
+@font-face{
+    src: url(../fonts/poppins/poppins-medium.ttf);
+    font-family: poppins-medium;  
+}
+@font-face{
+    src: url(../fonts/poppins/poppins-bold.ttf);
+    font-family: poppins-bold;  
+}
+@font-face{
+    src: url(../fonts/roboto/roboto-regular.ttf);
+    font-family: roboto-regular;  
+}
+/* font link end */
+
+/* common start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common end */
+/* header start  */
+header{
+    background-color:#cffbcf;
+    padding: 15px 0;
+}
+.icon{}
+.manu ul li a{
+   color:#000000 !important;
+    padding: 0 24px !important;
+}
+.manu ul li a:hover{
+    color: #FD511A !important;
+}
+/* header end */
+/* sign in start  */
+.btn_c{
+    background: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+
+}
+.btn_sign{
+    padding: 12px 28px;
+}
+.btn_c:hover{
+    background-color: #FD511A;
+    color: #FFF;
+}
+.btn_c:active{
+    background-color: #FD511A !important;
+    color: #FFF !important;
+}
+
+/* sign in end */
